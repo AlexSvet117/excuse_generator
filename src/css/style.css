@@ -8,6 +8,13 @@
 /* Font Google */
 body {
     font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+    height: 100vh;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4; */
 }
 
 .container {
@@ -21,7 +28,7 @@ body {
 }
 
 h3 {
-    font-size: 2.5rem;
+    font-size: 2.7rem;
 }
 
 #excuse {
@@ -31,32 +38,24 @@ h3 {
     background: linear-gradient(to right, rgb(112, 6, 112), rgb(217, 7, 7),rgb(220, 145, 5));
     color: transparent;
     background-clip: text;
-    margin: 4rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
+    margin-top: 4rem;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
 }
 
-.definition{
-    font-size: 1.5rem;
-    font-weight: 250;
-    margin-bottom: 2rem;
-    background: linear-gradient(to right, rgb(112, 6, 112), rgb(217, 7, 7),rgb(220, 145, 5));
-    color: transparent;
-    background-clip: text;
-    text-underline-position: above, black;
-    margin: 4rem;
+#transcript{
+    font-size: 1.2rem;
+    font-weight: 400;
+    /* border: 1rem; */
+    border-color: black;
+    /* background-color: aqua; */
     display: flex;
-    gap: 1rem
-}
-
-/* Add a line below the word */
-.word-container::after {
-    content: '';
-    display: block;
-    width: 100%; /* Matches the width of the word */
-    height: 2px;
-    background-color: rgb(112, 6, 112);
-    margin-top: 5px;
+    /* gap: 40px; */
+    /* background: linear-gradient(to right, rgb(112, 6, 112), rgb(217, 7, 7),rgb(220, 145, 5)); */
+    /* color: transparent; */
+    /* background-clip: text; */
+    /* padding: auto; */
+    /* text-underline-position: above, black; */
+    /* /* margin: 4rem; */
 }

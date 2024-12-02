@@ -5,6 +5,7 @@ window.onload = function () {
 
     // 1. Get the excuse element
     const excuse = document.getElementById('excuse');
+
     const transcript = document.getElementById('transcript')
 
     // 2. Generate a random excuse
@@ -14,7 +15,7 @@ window.onload = function () {
     const quote4 = ['yesterday,', 'a minute ago,', 'a year ago,', 'last winter,', 'this night,']
     const quote5 = ['he told me!', 'for real life!', 'I swear!', `it's true!`, 'I mean it!']
 
-    let transcriptMsg = ['Who to blame', 'What they did', 'What object suffered', 'When did it happen', 'Certainty lvl']
+    const transcriptMsg = ['Who to blame', 'What they did', 'What object suffered', 'When did it happen', 'Certainty lvl']
 
     const random1 = Math.floor(Math.random() * quote1.length)
     const random2 = Math.floor(Math.random() * quote2.length)
@@ -23,14 +24,9 @@ window.onload = function () {
     const random5 = Math.floor(Math.random() * quote5.length)
 
     const fullQuote = `${quote1[random1]} ${quote2[random2]} ${quote3[random3]} ${quote4[random4]} ${quote5[random5]}`
-    
+    const transcriptMsgSbm = `${transcriptMsg[0]} ${transcriptMsg[1]} ${transcriptMsg[2]} ${transcriptMsg[3]} ${transcriptMsg[4]}`
+
     // 3. Insert the excuse into the excuse element
     excuse.innerHTML = fullQuote;
-    transcript.innerHTML = transcriptMsg;
+    transcript.innerHTML = transcriptMsgSbm;
 }
-
-// who to blame
-// what they did
-// what object suffered
-// when did it happen
-// certainty level
