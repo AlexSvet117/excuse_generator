@@ -5,16 +5,10 @@
     box-sizing: border-box;
 }
 
-/* Font Google */
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #f4f4f4;
     height: 100vh;
-    /* display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #f4f4f4; */
 }
 
 .container {
@@ -39,23 +33,4 @@ h3 {
     color: transparent;
     background-clip: text;
     margin-top: 4rem;
-    /* display: flex; */
-    /* justify-content: center; */
-    /* align-items: center; */
-}
-
-#transcript{
-    font-size: 1.2rem;
-    font-weight: 400;
-    /* border: 1rem; */
-    border-color: black;
-    /* background-color: aqua; */
-    display: flex;
-    /* gap: 40px; */
-    /* background: linear-gradient(to right, rgb(112, 6, 112), rgb(217, 7, 7),rgb(220, 145, 5)); */
-    /* color: transparent; */
-    /* background-clip: text; */
-    /* padding: auto; */
-    /* text-underline-position: above, black; */
-    /* /* margin: 4rem; */
 }
